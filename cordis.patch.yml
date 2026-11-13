@@ -1,0 +1,13 @@
+- insert:
+    - id: traffic-statistics
+      name: dsh-traffic-statistics
+      config:
+        enabled: true
+        accounting:
+          enabled: true
+          sampleIntervalMs: 5000
+          sampleActiveIntervalMs: 1000
+        autoRestart:
+          enabled: false
+          dailyRestartAt: "04:00"
+          memoryLimitMb: 300

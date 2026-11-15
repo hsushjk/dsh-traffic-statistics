@@ -24,6 +24,14 @@
     "bandwidth",
     "statistics"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsushjk/dsh-traffic-statistics.git"
+  },
+  "homepage": "https://github.com/hsushjk/dsh-traffic-statistics#readme",
+  "bugs": {
+    "url": "https://github.com/hsushjk/dsh-traffic-statistics/issues"
+  },
   "engines": {
     "node": ">=22.13.0"
   },
